@@ -1,0 +1,95 @@
+body {
+    background: url(https://images.unsplash.com/photo-1685287417745-0ed40cb5b3c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    background-repeat: no-repeat repeat;
+    background-size: cover;
+    background-position: center;
+    color: whitesmoke;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+    margin-top: 30px;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.content {
+    margin: 15% auto ;
+    width: 70%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.card {
+    background: black;
+    width: 270px;
+    
+    margin: 10px;
+    border-radius: 15px;
+}
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card-1 {
+    background-image: url(UnionBank-CANVAS-PH-HERO1.jpg);
+}
+.card-2 {
+    background-image: url(https://www.schelstraete.nl/wp-content/uploads/2020/07/Online-Auction-1.jpg);
+}
+.card-3 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu25u9RxHCtR6IZ0fGAfmbXSHS9mDPj9bSp0hArj36CoIa-EO04PzC-bET6A8PGu3vTQ8&usqp=CAU);
+}
+.card h3 {
+    padding: 10px;
+}
+.card p {
+    padding: 5px;
+}
+.card a {
+    background-color: white;
+    color: black;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+form {
+    width: 70%;
+    margin: 0 auto;
+}
+input {
+    width: 300px;
+}
+textarea {
+    width: 300px;
+    height: 15vh;
+}
+#color {
+    color: rgb(243, 243, 75);
+}
+#button {
+    padding: 15px;
+    background: rgb(37, 35, 35);
+    color: rgb(230, 251, 1);
+    border-radius: 10px;
+}
